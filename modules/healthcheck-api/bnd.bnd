@@ -1,0 +1,4 @@
+Bundle-Name: HealthCheck API
+Bundle-SymbolicName: com.dnebinger.healthcheck.api
+Bundle-Version: 1.0.0
+Export-Package: com.dnebinger.healthcheck.sensor

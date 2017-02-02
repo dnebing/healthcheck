@@ -1,0 +1,3 @@
+Bundle-Name: HealthCheck Memory Sensor
+Bundle-SymbolicName: com.dnebinger.healthcheck.sensor.memory
+Bundle-Version: 1.0.0

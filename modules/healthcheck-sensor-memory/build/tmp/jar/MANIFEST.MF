@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HealthCheck Memory Sensor
+Bundle-SymbolicName: com.dnebinger.healthcheck.sensor.memory
+Bundle-Version: 1.0.0
+Created-By: 1.8.0_111 (Oracle Corporation)
+Import-Package: com.dnebinger.healthcheck.sensor;version="[1.0,2)",com
+ .liferay.portal.kernel.log;version="[7.0,8)"
+Javac-Debug: on
+Javac-Deprecation: off
+Javac-Encoding: UTF-8
+Private-Package: com.dnebinger.heathcheck.sensor.memory
+Provide-Capability: osgi.service;objectClass:List<String>="com.dnebing
+ er.healthcheck.sensor.Sensor"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.dnebinger.heathcheck.sensor.memory.Mem
+ orySensor.xml
+Tool: Bnd-3.2.0.201605172007
